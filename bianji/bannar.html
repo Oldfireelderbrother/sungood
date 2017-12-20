@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <title>首页banner编辑</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body style="height: 100%;">
+<div class="cover" id="cover">
+    <div class="loginBox">
+        请登录后操作。。。
+    </div>
+
+</div>
+<div>
+    <div role="navigation">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">banner列表</a></li>
+            <li role="presentation"><a href="./course.html">课程列表</a></li>
+            <li role="presentation"><a href="./contactList.html">联系列表</a></li>
+        </ul>
+    </div>
+    <h1>首页banner</h1>
+    <input type="radio" name="select" value="4">请选择修改banner1
+    <br>
+    <input type="radio" name="select" value="5">请选择修改banner2
+    <br>
+    <input type="radio" name="select" value="6">请选择修改banner3
+    <br>
+    <button id="get">获取</button>
+    <input type="text" id="pic">首页图片链接
+    <!--<input type="radio" id="isUp">-->
+    <!--<button id="toggle">是否上线</button>-->
+</div>
+<div id="editor">
+    <p>在此处输入文章内容</p>
+</div>
+<button id="btn1">发布</button>
+
+<!-- 注意， 只需要引用 JS，无需引用任何 CSS ！！！-->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//unpkg.com/wangeditor/release/wangEditor.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bmob-min.js"></script>
+<script src="js/banner.js"></script>
+</body>
+<style>
+    .cover {
+        width:100%;
+        height:100%;
+        background-color: rgba(0,0,0,0.6);
+        position: fixed;
+        z-index: 100000;
+        display: block;
+    }
+    .loginBox {
+        margin-top: 10%;
+        width:20%;
+        margin-left: 40%;
+        height:200px;
+        background-color: white;
+        text-align: center;
+        line-height: 200px;
+    }
+</style>
+</html>

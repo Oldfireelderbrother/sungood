@@ -1,0 +1,265 @@
+.articleBox {
+    width:100%;
+    min-width: 1226px;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+body{
+    margin:0px;
+    background-color: #F0F0F0;
+}
+.articleContent {
+    width:1226px;
+    height:400px;
+    height:auto;
+
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.article {
+    position: relative;
+    width:900px;
+    background-color: white;
+    height: 30px;
+    float: left;
+    height:auto;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+}
+.moreArticle {
+    width:306px;
+    margin-left:920px;
+    height:334px;
+    background-color: white;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+}
+.advertise {
+    width:306px;
+    height:300px;
+    background-color: #1b6d85;
+    margin-left: 920px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.foot {
+    margin-top: 60px;
+    width:100%;
+    min-width: 1440px;
+    height:389px;
+    background-color: #4c4a8a;
+
+    padding: 0;
+    margin-left: 0;
+}
+
+
+
+.mAmore {
+    font-family: PingFang-SC-Medium;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left:30px;
+    padding-top:30px;
+}
+.mAline {
+    background-color: #EBEBEB;
+    height:2px;
+    width:246px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.mAarticles {
+    width:100%;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+.mAarticles a {
+    text-decoration: none;
+}
+.mAarticles li {
+    font-family: PingFangSC-Regular;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 0;
+
+}
+.mAarticles li:hover{
+    color:  #F55151;
+}
+.articleTitle {
+    font-family: PingFang-SC-Medium;
+    font-size: 26px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left:50px;
+    margin-top: 45px;
+}
+.articleLitTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 21px;
+    position: relative;
+}
+.artTime {
+    margin-left: 20px;
+}
+.artMeg {
+    margin-left: 20px;
+}
+.watch {
+    display: inline-block;
+    position: absolute;
+    right:50px;
+}
+.watchIcon {
+    width:21px;
+    height:14px;
+}
+.watchNum {
+    margin-left: 10px;
+}
+.atLine {
+    width:800px;
+    height:2px;
+    background-color: #EBEBEB;
+    margin-top: 26px;
+    margin-left: 50px;
+}
+.prevAt {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.prevAt:hover {
+    color:  #F55151;
+}
+
+.nextAt {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nextAt:hover {
+    color:  #F55151;
+}
+.articleLitContent {
+    margin-top: 30px;
+    width:800px;
+    padding-left: 50px;
+    text-align: justify;
+
+}
+.articleList {
+    width:100%;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.loadMore {
+    width:100%;
+    height:40px;
+    background-color: white;
+    position: absolute;
+    bottom:-60px;
+    line-height: 40px;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+}
+.noMore {
+    width:100%;
+    height:40px;
+    background-color: #F0F0F0;
+    position: absolute;
+    bottom:-60px;
+    line-height: 40px;
+    border-radius: 6px;
+    display: none;
+}
+.loadMore:hover {
+    color: #F55151;
+}
+
+.articleLitList {
+    width:800px;
+    height:210px;
+    margin-left: 50px;
+    text-align: left;
+    position: relative;
+}
+
+.articleLitImg {
+    margin-top: 30px;
+    width:260px;
+    height:150px;
+
+}
+.articleLitListTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    left:300px;
+    top:40px;
+
+}
+.alltauthor {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+
+.alltime {
+    margin-top: 10px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+.atwatchNum {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+}
+
+.watchBox {
+    margin-top: 56px;
+}
+.allt:hover {
+    color: #F55151;
+}
+

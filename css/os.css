@@ -1,0 +1,34 @@
+.icon {
+    background-image: url('http://bmob-cdn-9538.b0.upaiyun.com/2017/11/23/6a11391540e6e320803bb00b13d6dfb7.jpg');
+    width:200px;
+    height: 50px;
+}
+.icon-wechat {
+    width:14px;
+    height: 14px;
+}
+.wechat {
+    width:15px;
+}
+.bannar {
+    position: absolute;
+    width:1920px;
+    left:50%;
+    margin-left: -960px;
+    background-image: url(http://bmob-cdn-9538.b0.upaiyun.com/2017/11/29/b0d7ce24406a201d80245063d4450352.jpg);
+}
+.wechatBox {
+    width:100px;
+    height:100px;
+    right: 0;
+    z-index: 111111;
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+.weChatImg {
+    width:96px;
+    heigth:96;
+    margin-left: 1px;
+    margin-top:2px;
+}

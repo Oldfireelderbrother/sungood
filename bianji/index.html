@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>顺佳后台</title>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
+    <link rel="stylesheet" href="./css/index.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div id="login">
+
+    <h2><span class="fontawesome-lock"></span>登录</h2>
+
+    <form action="javascript:void(0);" method="POST">
+
+        <fieldset>
+
+            <p><label for="email">请输入管理员账号</label></p>
+            <p><input type="text" id="account" value="请输入账号" onBlur="if(this.value=='')this.value='请输入账号'" onFocus="if(this.value=='请输入账号')this.value=''"></p> <!-- JS because of IE support; better: placeholder="mail@address.com" -->
+
+            <p><label for="password">请输入管理员密码</label></p>
+            <p><input type="password" id="password" value="请输入密码" onBlur="if(this.value=='')this.value='请输入密码'" onFocus="if(this.value=='请输入密码')this.value=''"></p> <!-- JS because of IE support; better: placeholder="password" -->
+            <p><input type="submit" value="登录" onclick="login()"></p>
+
+        </fieldset>
+
+    </form>
+
+</div> <!-- end login -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bmob-min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

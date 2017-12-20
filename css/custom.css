@@ -1,0 +1,739 @@
+.stayTop {
+    position: fixed;
+    top:0;
+    background-color: white;
+}
+.margintop{
+    margin-top: 80px;
+}
+
+#content {
+
+}
+#headBox {
+    position: relative;
+    width:100%;
+    margin-top: 80px;
+    height:560px;
+    background-color: white;
+    box-shadow: 0 1px 30px rgba(0,0,0,0.1);
+    min-width: 1226px;
+}
+.logoImg {
+    width:160px;
+    height:40px;
+    margin-top: 20px;
+    float: left;
+}
+.navBox {
+    width:100%;
+    height:80px;
+    position: fixed;
+    top:0;
+    background-color: white;
+    z-index: 9999;
+}
+.navList {
+    list-style-type: none;
+    margin-left: 216px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+    padding: 0;
+}
+.navList li {
+    float: left;
+    margin-left: 14px;
+    margin-right: 14px;
+
+    font-family: PingFang-SC-Medium;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+}
+.navActive {
+    font-weight: bold;
+}
+.bannarImg {
+    width:1226px;
+    height:360px;
+    background-repeat:no-repeat;
+    background-size: 1226px 360px;
+}
+.navList li:hover {
+    float: left;
+    margin-left: 14px;
+    margin-right: 14px;
+
+    font-family: PingFang-SC-Medium;
+    font-size: 14px;
+    color:#F55151;
+    letter-spacing: 0;
+}
+.logoBox {
+    width:1226px;
+    position: absolute;
+    height:80px;
+    left: 50%;
+    margin-left: -613px;
+
+}
+.courseImg {
+    width: 296px;
+    height: 180px;
+    background-color: #4c4a8a;
+}
+.courseTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: 32px;
+}
+
+.courseTitle:hover {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #F55151;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: 32px;
+}
+.courseLitTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: 12px;
+}
+.swiper-container {
+    width:1226px;
+    height: 360px;
+}
+
+#new-bannar {
+    position: absolute;
+    width:1226px;
+    left:50%;
+    margin-left: -613px;
+    height: 360px;
+}
+
+#four_ban {
+    position: absolute;
+    width:1226px;
+    left:50%;
+    margin-left: -613px;
+    top: 374px;
+    height: 170px;
+}
+#freeCourse {
+    position: absolute;
+    width:1226px;
+    left:50%;
+    margin-left: -613px;
+    top:666px;
+    height:372px;
+}
+
+#consultBox {
+    position: absolute;
+    width:1226px;
+    left:50%;
+    margin-left: -613px;
+    top:1038px;
+    height:358px;
+}
+#teacherBox {
+    position: absolute;
+    width:1226px;
+    left:50%;
+    margin-left: -613px;
+    top:1396px;
+    height:612px;
+}
+.teacherImg {
+    width:134px;
+    height:134px;
+    background-color: #4c4a8a;
+    float: left;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.teacherImage {
+    width:134px;
+    height:134px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.teacherItemTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-top: 28px;
+    margin-left: 155px;
+}
+.teacherItemLitTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-left: 155px;
+}
+#picBox {
+    position: absolute;
+    width:1440px;
+    height:300px;
+    left:50%;
+    top:2008px;
+    margin-left: -720px;
+    background-color: #4c4a8a;
+}
+.pic {
+    width:100%;
+    height:100%;
+}
+#studentBox {
+    width:100%;
+    background-color: white;
+    height: 552px;
+    position: absolute;
+    top: 2308px;
+}
+#studentsBox {
+    position: absolute;
+    width:1226px;
+    left:50%;
+    margin-left: -613px;
+    height: 552px;
+    text-align: center;
+}
+#studentsTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: 38px;
+}
+#studentsLitTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 0;
+    margin-top: 14px;
+}
+#studentsContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+}
+
+.studentTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: 28px;
+    text-align: left;
+    margin-left: 28px;
+}
+.studentLitTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.studentContent {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+    width:240px;
+    margin-left: 28px;
+    text-align: left;
+    margin-top: 14px;
+}
+#footerBox {
+     position: absolute;
+     width:100%;
+     height:622px;
+     top:2860px;
+     text-align: center;
+     min-width: 1226px;
+ }
+#footerBox1 {
+    position: absolute;
+    width:100%;
+    height:389px;
+    text-align: center;
+    min-width: 1226px;
+    margin-top: 80px;
+}
+
+#footerTitle{
+    margin-top: 42px;
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 30px;
+
+}
+#footerLitTitle {
+    margin-top: 14px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 0;
+}
+
+#footerIcon {
+    position: absolute;
+    margin-left: -613px;
+    left:50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:1226px;
+    padding:0 30px;
+    margin-top: 30px;
+}
+#footerContent {
+    height:389px;
+    width:100%;
+    min-width: 1226px;
+    margin-top: 126px;
+    background-color: #1F232C;
+    text-align: left;
+    position: relative;
+}
+#footerContent1 {
+    height:389px;
+    width:100%;
+    min-width: 1226px;
+    background-color: #1F232C;
+    text-align: left;
+    position: relative;
+}
+.iconItem {
+    list-style-type: none;
+    width:105px;
+    height:35px;
+    background-color: white;
+    border-radius: 10px;
+}
+.iconpic {
+    width:105px;
+    height:35px;
+    border-radius: 10px;
+}
+.studentImg {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width:296px;
+    height: 180px;
+    background-color: #4c4a8a;
+}
+.studentImage {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width:296px;
+    height: 180px;
+}
+
+.studentsItem {
+    border-radius: 6px;
+    margin-top: 28px;
+    list-style-type: none;
+    width:296px;
+    height: 364px;
+    background-color: white;
+}
+
+.studentTitleBox {
+    margin-top: 0px;
+    width: 100%;
+    height: 184px;
+    border:1px solid #F0F0F0;
+    border-top: 1px solid rgba(0,0,0,0);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.studentTitleBox:hover {
+    margin-top: 0px;
+    width: 100%;
+    height: 184px;
+    border:1px solid #F55151;
+    border-top: 1px solid rgba(0,0,0,0);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+.teacherTitle {
+    width: 100%;
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    margin-top: 42px;
+    line-height: 30px;
+    font-family: PingFangSC-Regular;
+}
+
+h1 {
+    font-family: PingFangSC-Regular;
+}
+.teacherLitTitle {
+    color: #999999;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 18px;
+}
+.teacherItems {
+    height: 200px;
+    margin:28px 0 0 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.teacherItem {
+    border-radius: 6px;
+    width:296px;
+    height: 134px;
+    background-color: white;
+    list-style-type: none;
+    float: left;
+    margin-bottom: 14px;
+}
+.consult {
+    margin-top: 28px;
+    width:606px;
+    height:358px;
+    float: left;
+    position: relative;
+}
+.consultContent {
+    margin-top: 28px;
+    width:606px;
+    height:272px;
+    padding: 0;
+
+}
+.contentItem {
+    position: relative;
+    list-style-type: none;
+    width:606px;
+    margin-left: 0px;
+    height:54px;
+    background-color: white;
+    border-bottom:1px solid #F0F0F0;
+}
+
+.contenItemTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-top: 16px;
+    margin-left: 14px;
+    display: inline-block;
+}
+.contenItemTitle:hover {
+    color: #F55151 ;
+}
+.contenItemLitTitle {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #CCCCCC;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+.contenItemLitTitleBox {
+    position: absolute;
+    right:10px;
+    top:15px;
+}
+.more {
+    color: #999999;
+    font-size: 16px;
+    line-height: 38px;
+    position: absolute;
+    right:10px;
+}
+.fc_content {
+    width:296px;
+    height:286px;
+    float: left;
+    background-color: white;
+    margin-top: 28px;
+    text-align: center;
+    transition: all .2s linear;
+}
+
+.fc_content:hover {
+    width:296px;
+    height:286px;
+    float: left;
+    background-color: white;
+    transform: translate3d(0, -2px, 0);
+    webkit-transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+
+
+.title {
+    font-family: PingFangSC-Regular;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333333;
+    margin-top: 28px;
+}
+#qa_contact {
+    width:236px;
+    background-color: #5E5750;
+    height: 100%;
+    float: left;
+    display: inline-block;
+}
+.part1 {
+    width:118px;
+    height:100%;
+    float: left;
+    text-align: center;
+    color:#DED8D2;
+}
+.part1:hover {
+    width:118px;
+    height:100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+.part2 {
+    width:117px;
+    height:100%;
+    float: left;
+    text-align: center;
+    color:#DED8D2;
+}
+.part2:hover {
+    width:117px;
+    height:100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+.ban {
+    float: left;
+    width:316px;
+    margin-left: 14px;
+    background-color: white;
+    height: 100%;
+    margin-top: 0;
+}
+.ban:hover {
+    float: left;
+    width:316px;
+    margin-left: 14px;
+    background-color: white;
+    height: 100%;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.xj1 {
+    background-image: url(http://pic.isungood.com/2017/12/20/fee4b68ed39f45c79cb2d389aff96cb5.png);
+    background-size: 316px 170px;
+}
+
+.xj2 {
+    background-image: url(http://pic.isungood.com/2017/12/20/d268d74731ef484a8d77d7434537f33e.png);
+    background-size: 316px 170px;
+}
+
+.xj3 {
+    background-image: url(http://pic.isungood.com/2017/12/20/9f89627956e04ad0bb4a3dded6aea5fe.png);
+    background-size: 316px 170px;
+}
+.qaa {
+    width:37px;
+    height:37px;
+    font-size: 37px;
+    margin-left: 41px;
+    margin-top: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.qaaTxt {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 16px;
+    margin-top: 15px;
+    letter-spacing: 0;
+
+}
+.contactUs {
+    width:40px;
+    height:40px;
+    font-size: 40px;
+    margin-left: 39px;
+    margin-top: 22px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contactTxt {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+.line {
+    margin-top: 20px;
+    width:1px;
+    height:130px;
+    display: inline-block;
+    background-color: #8D8D8D;
+    float: left;
+}
+.footTitle {
+    font-family: PingFang-SC-Medium;
+    font-size: 20px;
+    color: #F0F0F0;
+    letter-spacing: 0;
+}
+.footList {
+    list-style-type: none;
+    padding: 0;
+}
+.footList li {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #BFBFBF;
+    letter-spacing: 0;
+}
+
+.footOne {
+    margin-left: 70px;
+    padding-top: 49px;
+    float: left;
+}
+.footTwo {
+    margin-left: 90px;
+    padding-top: 49px;
+    float: left;
+}
+.verLine {
+    width:1px;
+    height:100px;
+    margin-left: 50px;
+    background-color: rgba(216,216,216,0.20);
+    margin-top: 49px;
+    float: left;
+}
+.horLine {
+    width:1070px;
+    background-color: #666666;
+    margin-left: 50px;
+    border: 1px solid #979797;
+    margin-top: 28px;
+}
+.fh5co-loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/loader.gif) center no-repeat #fff;
+}
+
+.ewm {
+    width:137px;
+    height:137px;
+    margin-top: 49px;
+    margin-left: 130px;
+}
+.footLogo {
+    width:44px;
+    height:44px;
+
+}
+.footlogoBox {
+    margin-left: 840px;
+    margin-top:18px ;
+    line-height: 50px;
+
+}
+.footTxt {
+    font-family: SourceHanSansCN-Bold;
+    font-size: 36px;
+    color: #BFBFBF;
+    letter-spacing: 0;
+    height:40px;
+    vertical-align: middle;
+}
+.footdes{
+    margin-left: 840px;
+    font-family: STHeitiSC-Light;
+    font-size: 18px;
+    color: #BFBFBF;
+    letter-spacing: 0;
+}
+.footBq{
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 18px;
+}
+.footBqN {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+}
+.footBox {
+    width:1226px;
+    position: absolute;
+    left:50%;
+    margin-left: -613px;
+    height:auto;
+}
+.breadNav {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #999;
+}
+.breadDep {
+    margin-left: 3px;
+}
+.now {
+    color: #333 ;
+}
+.link {
+    text-decoration:none;
+    color:#999;
+}
+.link:hover {
+    color:#333;
+}

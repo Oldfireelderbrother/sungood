@@ -1,0 +1,250 @@
+
+html,body,div,span,iframe,map,font,img,a img,samp,strong,hr,
+h1,h2,h3,h4,h5,h6,b,p,blockquote,a,address,code,dl,dt,dd,ol,
+ul,li,form,label,table,tr,td,th{padding:0;margin:0;border:0;font-weight:normal;font-size:12px;font-family: Arial, Helvetica, sans-serif; color:#000;}
+body{background: #fff;}ul,li{list-style:none;}dl{}.f_l{float:left;}.f_r{float:right;}
+.contentBox {
+    width:100%;
+    position: relative;
+    height: 5847px;
+    overflow: hidden;
+
+}
+.formName {
+    margin-left: 34px;
+    margin-top: 20px;
+    color: #333333;
+    vertical-align:middle
+
+}
+.inputBox {
+    margin-left: 20px;
+    width:320px;
+    height: 32px;
+    border: 1px solid #CCCCCC;
+    outline-color: #FF6052;
+}
+.inputBox1 {
+    margin-left: 20px;
+    width:320px;
+    height: 100px;
+    border: 1px solid #CCCCCC;
+    resize: none;
+    outline-color: #FF6052;
+}
+#mail:valid {
+    content: '';
+}
+
+#mail:invalid ~ label::after {
+    content: '*';
+}
+.formBtn {
+    width:112px;
+    height: 32px;
+    margin-left: 182px;
+    margin-top: 24px;
+    border-radius: 16px;
+    border: 1px solid #FF6052;
+    color: #FF6052;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+}
+.formNameTxt {
+    width: 56px;
+    height: 32px;
+    float: left;
+    line-height: 32px;
+    font-size: 14px;
+}
+.zxbm {
+    margin-left: 34px;
+    margin-top: 45px;
+    color: #FF6052;
+    font-size: 36px;
+}
+.descri {
+    margin-left: 34px;
+    margin-top: 10px;
+    color: #999999;
+    font-size: 14px;
+}
+.formBox {
+    width:476px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    left:50%;
+    margin-left: 144px;
+}
+
+.ntuContBox {
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    height: 1050px;
+}
+.contBtn {
+    position: absolute;
+    width:160px;
+    height: 48px;
+    border-radius: 24px;
+    font-size: 24px;
+    z-index: 999;
+    background-color: #ff5f53;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    left:50%;
+    margin-left: 360px;
+    margin-top: 528px;
+}
+.content {
+    width:1920px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content10 {
+    width:1920px;
+    position: absolute;
+    margin-top:616px;
+    left:50%;
+    margin-left: -960px;
+}
+.content1 {
+    width:1920px;
+    position: absolute;
+    margin-top:735px;
+    left:50%;
+    margin-left: -960px;
+}
+.content2 {
+    width:1920px;
+    margin-top: 1220px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content3 {
+    width:1920px;
+    margin-top: 1850px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content4 {
+    width:1920px;
+    margin-top: 2539px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content5 {
+    width:1920px;
+    margin-top: 2920px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content6 {
+    width:1920px;
+    margin-top: 3654px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content7 {
+    width:1920px;
+    margin-top: 4171px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content8 {
+    width:1920px;
+    margin-top: 4971px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.content9 {
+    width:1920px;
+    margin-top: 5682px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.ntuContent {
+    width:1920px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+.ntuContent1 {
+    width:1920px;
+    position: absolute;
+    margin-top: 500px;
+    left:50%;
+    margin-left: -960px;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+a {
+    border: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: white;
+    text-align: center;
+    z-index: 10000;
+}
+.logoBox {
+    width:200px;
+    position: absolute;
+    left:40px;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo {
+    width:200px;
+    margin-left:40px;
+
+}
+ul {
+
+    width:700px;
+    height:60px;
+    display: inline-block;
+}
+li{
+    float: left;
+    font-size: 18px;
+    color: #ccc;
+    width:16%;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+}
+li:hover{
+    float: left;
+    color:  #ff5f53;
+    width:16%;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nav{
+    width:1240px;text-align: center;display: inline-block
+}

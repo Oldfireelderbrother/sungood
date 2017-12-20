@@ -1,0 +1,97 @@
+body{
+    margin:0px;
+    background-color: #F0F0F0;
+}
+.qaContentBox {
+    width:100%;
+    min-width:1226px;
+    text-align: center;
+    height: 627px;
+    position: relative;
+    margin-top: 100px;
+}
+.qaContent {
+    width:1226px;
+    height:100%;
+
+    display: inline-block;
+}
+.qaTitleBox {
+    width:100%;
+    text-align: center;
+    height:117px;
+    padding-top: 16px;
+}
+.qaTitle {
+    font-family: PingFang-SC-Regular;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.qaLitTitle {
+    margin-top: 16px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #F55151;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+.qaCards {
+    width:1040px;
+    height: 100%;
+    margin-left: 93px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.qaCard {
+    width:300px;
+    height:380px;
+    background-color: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    transition: all .2s linear;
+}
+.qaCard:hover {
+    transform: translate3d(0, -2px, 0);
+    webkit-transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+.qaPic {
+    width:140px;
+    height:140px;
+
+    margin-top: 40px;
+}
+.qaCardTitle{
+    margin-top: 22px;
+    font-family: PingFang-SC-Semibold;
+    font-size: 30px;
+    color: #5BB7FF;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.qaCardLitTitle {
+    margin-top: 12px;
+    font-family: PingFang-SC-Regular;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+.qaBtn {
+    margin-top: 32px;
+    display: inline-block;
+    border: 1px solid #5CB7FF;
+    border-radius: 100px;
+    width:120px;
+    height:30px;
+    color:#5CB7FF;
+    line-height: 30px;
+}
+.qaLitTitleLink {
+    text-decoration:none;
+    color:#F55151;
+}
